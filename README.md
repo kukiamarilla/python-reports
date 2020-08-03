@@ -16,9 +16,9 @@ Luego, ejecutar `pipenv shell` para entrar dentro del entorno virtual recién cr
 
 ## Uso
 
-El comando `python main.py` generará el reporte con el formato del archivo `reports.html`.
+El comando `python main.py` generará los reportes con el formato del archivo `report.html` dentro del directorio `output` con los nombre `output.html` y `output.pdf`.
 
-Para modificar el formato del reporte se debe modificar el archivo `reports.html`. (se está utilizando la librería de templating `Jinja2`[https://jinja.palletsprojects.com/en/2.11.x/templates/] para el formateo del reporte)
+Para modificar el formato del reporte se debe modificar el archivo `report.html`. (se está utilizando la librería de templating `Jinja2`[https://jinja.palletsprojects.com/en/2.11.x/templates/] para el formateo del reporte)
 
 Para modificar los datos con los cuales se van a generar el reporte, calcularlos  en el script `main.py`
 
