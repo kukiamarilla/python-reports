@@ -5,8 +5,8 @@ Ejemplo de Generación de Reportes en Python
 ## Requerimientos
 
 - wkhtmltopdf (https://wkhtmltopdf.org/)
-- Python
-- Pipenv
+- Python 3
+- Pipenv (Ejecutar `pip install pipenv` para instalar)
 
 ## Instalación
 
